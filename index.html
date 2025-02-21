@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema conversão de moedas</title>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <h1>Conversor de moedas</h1>
+
+    <section id="conversao-moeda">
+      <label for="valor">Valor:</label>
+      <input type="number" id="valor" placeholder="ex: 100" />
+      
+      <label for="moeda-origem">Moeda Origem (ex: USD):</label>
+      <input type="text" id="moeda-origem" placeholder="ex: USD" />
+      
+      <label for="moeda-destino">Moeda Destino (ex: BRL):</label>
+      <input type="text" id="moeda-destino" placeholder="ex: BRL" />
+      
+      <button onclick="executaConversao()">Converter</button>
+      <div class="result" id="resultado-conversao"></div>
+    </section>
+  </body>
+</html>
+   
